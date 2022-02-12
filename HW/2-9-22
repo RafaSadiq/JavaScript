@@ -1,0 +1,63 @@
+//Question 1: Which are of these are related to python and which are related to JS? abc is the veriable name
+/*
+abc.indexOf()       -   JS
+abc.capitalize()    -   PY 
+abc.charAt          -   JS 
+abc.concat          -   JS
+abc.endsWith        -   JS 
+abc.find()          -   PY 
+abc.format()        -   PY 
+abc.includes()      -   JS 
+abc.lastIndexOf()   -   JS
+abc.length          -   PY 
+abc.lower()         -   JS 
+abc.match()         -   JS 
+abc.partition       -   PY 
+abc.repeat()        -   JS 
+abc.replace(a,b)    -   JS 
+abc.replace(a,b)    -   PY 
+abc.slice           -   JS 
+abc.slice(-1)       -   JS 
+abc.slice(1, 0)     -   JS 
+abc.slice(1)        -   JS 
+abc.split()         -   PY 
+abc.startsWith      -   JS 
+abc.strip()         -   PY 
+abc.title()         -   PY 
+abc.toLowerCase()   -   JS 
+abc.toUpperCase()   -   JS 
+abc.trim()          -   JS 
+abc.upper()         -   PY 
+abc[:1]             -   PY 
+abc[1:-1]           -   PY 
+abc[1]              -   PY 
+alert(abc)          -   JS 
+c = abc + ""        -   JS 
+false               -   PY 
+len(abc)            -   PY 
+True                -   PY 
+*/                  
+
+//Question 2: Given this sentence 'I love javascipt' what function would we use to select the word love?
+        var str = 'I love javascript'
+        str.slice(2, 6)
+
+//Question 3: Given the varibale x = '4' and y = 10 and z = '8' how could i get to 14
+        var x = 4;
+        var y = 10;
+        var z = 8;
+        var num = (y + z) - x;
+        num
+
+//Question 4: Given the varibale x = '4' and y = 10 and z = '8' how could i get to 4108
+        var x = 4;
+        var y = 10;
+        var z = 8;
+        num = String(x) + String(y) + String(z);
+        num
+
+//Question 5: Without using the internet and only what we learned today find out how to create a regular expression for a social security number that uses this formate 123-45-6789
+
+let ssn = 123-45-6789
+    console.log((/((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}/))
+<!-- console.log(//regular expression for ssn goes here. This is the syntax for the phone number regular expression (/((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}/)) -->
