@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.4/lodash.min.js"></script>
+
+</head>
+
+<body>
+    <script>
+        // reduces
+        const links = [
+            "https://google.com",
+            "https://devcamp.com",
+            "https://airbnb.com"
+        ]
+
+        const weblinks = _.reduce(links, function(content, link) {
+            return `<a href='${link}'>${link}</a><br>`.concat(content);
+        }, '');
+
+        console.log(weblinks);
+    </script>
+
+    <!-- <script>
+        // random 
+        randNumber = () => {
+            return _.random(1, 100);
+        }
+        const lodashSampleNumbers = _.times(5, randNumber);
+        console.log(loadedSampleNumbers);
+    </script> -->
+
+</body>
+
+</html>

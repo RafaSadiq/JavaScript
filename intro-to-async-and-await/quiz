@@ -1,0 +1,19 @@
+<!-- Async and Await
+
+(1) Async and Await have solved a very important problem for Javascript developers.
+Answer:
+True
+
+(2) A closure is a function that cannot be wrapped inside of a variable.
+Answer:
+False
+
+(3) What is the purpose of a try and catch block?
+Answer:
+It catches and logs your errors so you can reference them later.
+
+(4) How many try and catch blocks are you limited to in your applications?
+Answer:
+There is no limit.
+
+-->

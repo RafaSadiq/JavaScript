@@ -1,0 +1,44 @@
+<!-- Modern JavaScript Tools
+
+(1) What is the purpose of using popular libraries like lodash?
+Answer:
+It allows us to simply call a specific method as opposed to having to write all of the code ourself.
+
+(2) What does it mean to have a functional type of method?
+Answer:
+It means that it is most likely going to return a new set of values.
+
+(3) What Lodash function can you use to create an object with keys based off of the values of another object?
+Answer:
+keyBy
+
+(4) Which function below will give me a random number between 1 and 100?
+Answer:
+"randNumber = () => { return _.random(1, 100); }"
+
+(5) What does the JavaScript Debugger do?
+Answer:
+Gives you the ability to stop your program in different parts of its execution life cycle.
+
+(6) What line would we put into our code to start a debugging session?
+Answer:
+debugger
+
+(7) What does the Quokka extension allow you to do?
+Answer:
+See your output data in real time as you write your code.
+
+(8) With the free version of Quokka, how do you see your output data?
+Answer:
+console.log(data);
+
+(9) What is a linting tool?
+Answer:
+A process that gives recommendations for your code.
+
+(10) Why is it important to learn about linting tools?
+Answer:
+All of the above. 
+[They are used in all kinds of different organizations.
+It's very rare that you'll run into a production application that doesn't have some kind of Linting tool.
+They can help keep critical information that you might have logged hidden before you push to production. ]-->

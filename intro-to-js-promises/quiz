@@ -1,0 +1,30 @@
+<!-- Javascript Promises 
+
+(1) What is a common way to use promises in Javascript?
+Answer: API
+
+(2) What is the correct way to create a promise in Javascript?
+Answer: new Promise
+
+(3) What kind of arguments does Promise take?
+Answer: All the above
+
+(4) Fetch in Javascript will return a promise.
+Answer: TRUE
+
+(5) You do not need the promise call to be able to call an API without stopping the entire communication pattern in data flow.
+Answer: FALSE
+
+(6 Fetch can be used with any type of data.
+Answer: TRUE
+
+(7) What is the term to be able to group Promises together in Javascript.
+Answer: Promise all
+
+(8) The forEach method gives us the ability to iterate over an array.
+Answer: TRUE
+
+(9) Fill in the missing part of this code. const greeting = new Promise((resolve, reject) ___{ resolve('Hi there'); reject('Oops, bad greeting'); });
+Answer: => 
+
+-->
