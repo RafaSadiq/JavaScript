@@ -23,6 +23,8 @@ const bank = {
 
 const bankInfo = ({ accountNum, name, balance }) => {
     return (`Hi ${name}! Your current balance is $${balance}. Account#: ${accountNum}.`);
+
+
 }
 
 bankInfo(bank);
